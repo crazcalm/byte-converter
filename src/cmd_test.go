@@ -35,7 +35,7 @@ func TestValidInputTo(t *testing.T) {
 		{"MB", true},
 		{"GB", true},
 		{"TB", true},
-		{"unkown", false},
+		{"unknown", false},
 	}
 
 	for _, test := range tests {
@@ -57,7 +57,7 @@ func TestValidInputFrom(t *testing.T) {
 		{"MB", true},
 		{"GB", true},
 		{"TB", true},
-		{"unkown", false},
+		{"unknown", false},
 	}
 
 	for _, test := range tests {
